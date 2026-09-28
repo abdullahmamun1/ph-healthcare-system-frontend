@@ -68,7 +68,7 @@ export default function DoctorApplyForm() {
       phone: "01334455345",
       address: "Dhaka",
       specialization: "Neurology",
-      licenseNumber: "AB-12",
+      licenseNumber: "AB12",
       qualifications: "MBBS",
       experienceYears: "10",
       consultationFee: "1000",

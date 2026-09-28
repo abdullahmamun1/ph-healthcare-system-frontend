@@ -28,6 +28,9 @@
       },
       "performance": {
         "noImgElement": "off"
+      },
+      "correctness": {
+        "useExhaustiveDependencies": "off"
       }
     },
     "domains": {
