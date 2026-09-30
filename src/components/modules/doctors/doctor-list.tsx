@@ -69,7 +69,7 @@ function PublicDoctorGrid({
             <CardContent className="space-y-2 text-muted-foreground">
               <p className="flex items-center gap-1.5">
                 <GraduationCap className="size-4 shrink-0" />
-                {doctor.qualifications}
+                {doctor.qualification}
               </p>
               <p className="flex items-center gap-1.5">
                 <BriefcaseBusiness className="size-4 shrink-0" />

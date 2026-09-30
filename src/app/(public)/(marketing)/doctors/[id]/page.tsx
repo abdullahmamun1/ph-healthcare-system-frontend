@@ -83,7 +83,7 @@ export default async function page({
           <CardContent className="space-y-3 text-muted-foreground">
             <p className="flex items-center gap-2">
               <GraduationCap className="size-4 shrink-0" />
-              {doctor.qualifications}
+              {doctor.qualification}
             </p>
             <p className="flex items-center gap-2">
               <BriefcaseBusiness className="size-4 shrink-0" />

@@ -43,8 +43,7 @@ export default function AppointmentList() {
 
   return (
     <div>
-      {appointments.map((appointment: { doctor: { name: string }; status: string; id: string | number }) => {
-        const { doctor, status, id } = appointment;
+      {appointments.map(({ doctor, status, id }) => {
         return (
           <div key={id} className="border rounded-md p-3 my-4">
             <div className="w-full flex gap-3">
