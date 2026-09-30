@@ -22,7 +22,7 @@ export async function generateStaticParams() {
   const limit = 100;
   const first = await getAllPublicDoctors({ page: 1, limit });
 
-  const totalPages = first.meta.totalPages ?? 1;
+  const totalPages = first?.meta?.totalPages ?? 1;
 
   const all = [...first.data];
 
